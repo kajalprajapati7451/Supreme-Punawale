@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Punawale - Luxury Apartments in Pune | Coming Soon</title>
+    <meta name="description" content="Register your interest for Supreme Punawale, a premium residential project in the heart of Punawale, Pune. Experience luxury living with unmatched connectivity.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">SUPREME PUNAWALE</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Supreme Punawale</h1>
+            <h2>Luxury is Coming to Pune</h2>
+            <p>Register your interest and be the first to experience unparalleled living.</p>
+            <a href="#contact" class="cta-button">Notify Me on Launch</a>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-text">
+                    <h2>Prime Location in Punawale</h2>
+                    <p>Nestled in the rapidly developing suburb of Punawale, Supreme offers seamless connectivity to Hinjewadi IT Park, the Mumbai-Pune Expressway, and all major social infrastructure.</p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <span>🚗</span>
+                            <span>10 mins to Hinjewadi IT Park</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span>✈️</span>
+                            <span>30 mins to Pune International Airport</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span>🛍️</span>
+                            <span>Close to Premium Schools & Malls</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span>🌳</span>
+                            <span>Surrounded by Green Spaces</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30254.956822394647!2d73.73961147431642!3d18.600881399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbf6e2d4b7d5%3A0x1e3c6d6d6d6d6d6d!2sPunawale%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get Exclusive Updates</h2>
+            <p class="contact-subtext">Leave your details below, and we will notify you the moment bookings open.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Any specific requirements?"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Notify Me</button>
+                <div class="success-message" id="successMessage">
+                    Thank you! We'll be in touch.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Supreme Punawale Project. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- Coming Soon Popup -->
+    <div class="popup-overlay active" id="popupOverlay">
+        <div class="popup-content">
+            <button class="popup-close" id="popupClose">×</button>
+            <div class="popup-icon">🏢</div>
+            <h2>Coming Soon</h2>
+            <p>Supreme Punawale is launching soon! Be among the first to experience luxury redefined in Pune's most sought-after location.</p>
+            <a href="#contact" class="popup-cta" id="popupCta">Register Your Interest</a>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
